@@ -9,5 +9,17 @@
  * @author gagenshar36
  */
 public class Die {
+    int SIDES = 6;
     
+    public Die(int s) {
+        SIDES = 6;
+    }
+    
+    public Die() {
+        
+    }
+    
+    public int Roll() {
+        return (int)(Math.random() * SIDES + 6);
+    }
 }

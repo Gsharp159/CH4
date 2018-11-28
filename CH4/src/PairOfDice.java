@@ -9,5 +9,14 @@
  * @author gagenshar36
  */
 public class PairOfDice {
+    int NUMBEROFDICE;
+    Die Die = new Die();
     
+    public PairOfDice(int number) {
+        NUMBEROFDICE = number;
+    }
+    
+    public int roll(){
+        return (Die.Roll() + Die.Roll());
+    }
 }
