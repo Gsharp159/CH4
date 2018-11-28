@@ -19,4 +19,8 @@ public class PairOfDice {
     public int roll(){
         return (Die.Roll() + Die.Roll());
     }
+    
+    public boolean checkOneTwo() {
+        
+    }
 }
